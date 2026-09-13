@@ -16,7 +16,7 @@
 ### 최종 제출 URL
 
 ```text
-여기에
+https://github.com/KJY13/llm-data-analysis-study/blob/main/chapter01/chapter01.md
 ```
 
 ---
