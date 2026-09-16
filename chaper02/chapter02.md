@@ -78,8 +78,8 @@ git version 2.x.x
 
 ## 성공 기준
 
-- [ ] Python 또는 `py`/`python3` 버전을 확인했습니다.
-- [ ] Git 버전을 확인했습니다.
+- [x] Python 또는 `py`/`python3` 버전을 확인했습니다.
+- [x] Git 버전을 확인했습니다.
 
 ## 오류가 나면
 
@@ -126,8 +126,8 @@ README.md
 
 ## 성공 기준
 
-- [ ] 현재 폴더가 `llm-data-analysis-course`입니다.
-- [ ] `requirements.txt`, `notebooks`, `scripts`, `data`가 보입니다.
+- [x] 현재 폴더가 `llm-data-analysis-course`입니다.
+- [x] `requirements.txt`, `notebooks`, `scripts`, `data`가 보입니다.
 
 ## 오류가 나면
 
@@ -159,8 +159,8 @@ code .
 
 ## 성공 기준
 
-- [ ] VS Code에서 저장소 루트 폴더를 열었습니다.
-- [ ] Explorer에서 `notebooks/`, `data/`, `scripts/`를 확인했습니다.
+- [x] VS Code에서 저장소 루트 폴더를 열었습니다.
+- [x] Explorer에서 `notebooks/`, `data/`, `scripts/`를 확인했습니다.
 
 ---
 
@@ -196,8 +196,8 @@ python3 -m venv .venv
 
 ## 성공 기준
 
-- [ ] `.venv` 폴더가 생성되었습니다.
-- [ ] 오류 메시지 없이 명령이 끝났습니다.
+- [x] `.venv` 폴더가 생성되었습니다.
+- [x] 오류 메시지 없이 명령이 끝났습니다.
 
 ## 오류가 나면
 
@@ -235,7 +235,7 @@ source .venv/bin/activate
 
 ## 성공 기준
 
-- [ ] 터미널에 `(.venv)`가 표시됩니다.
+- [x] 터미널에 `(.venv)`가 표시됩니다.
 
 ## 오류가 나면
 
@@ -292,7 +292,7 @@ macOS/Linux 예:
 
 ## 성공 기준
 
-- [ ] 출력 경로에 프로젝트의 `.venv`가 포함됩니다.
+- [x] 출력 경로에 프로젝트의 `.venv`가 포함됩니다.
 
 ## 오류가 나면
 
@@ -319,8 +319,8 @@ python -m pip install -r requirements.txt
 
 ## 성공 기준
 
-- [ ] `python -m pip`를 사용했습니다.
-- [ ] `requirements.txt` 설치가 완료되었습니다.
+- [x] `python -m pip`를 사용했습니다.
+- [x] `requirements.txt` 설치가 완료되었습니다.
 
 ## 오류가 나면
 
@@ -371,8 +371,8 @@ macOS/Linux:
 
 ## 성공 기준
 
-- [ ] 프로젝트 `.venv` 인터프리터를 선택했습니다.
-- [ ] 시스템 Python이나 다른 프로젝트 Python을 선택하지 않았습니다.
+- [x] 프로젝트 `.venv` 인터프리터를 선택했습니다.
+- [x] 시스템 Python이나 다른 프로젝트 Python을 선택하지 않았습니다.
 
 ---
 
@@ -409,8 +409,8 @@ Get-ChildItem data\raw
 
 ## 성공 기준
 
-- [ ] `data/raw/customers.csv`가 존재합니다.
-- [ ] 나머지 3개 CSV도 확인했습니다.
+- [x] `data/raw/customers.csv`가 존재합니다.
+- [x] 나머지 3개 CSV도 확인했습니다.
 
 ## 오류가 나면
 
@@ -444,7 +444,7 @@ Markdown 셀과 Code 셀이 Notebook 형식으로 보입니다.
 
 ## 성공 기준
 
-- [ ] `ch02_environment_setup.ipynb`를 열었습니다.
+- [x] `ch02_environment_setup.ipynb`를 열었습니다.
 
 ---
 
@@ -470,7 +470,7 @@ Notebook 커널 Python
 
 ## 성공 기준
 
-- [ ] Notebook 커널이 프로젝트 `.venv`입니다.
+- [x] Notebook 커널이 프로젝트 `.venv`입니다.
 
 ## 오류가 나면
 
@@ -518,8 +518,8 @@ print('현재 작업 폴더:', Path.cwd())
 
 ## 성공 기준
 
-- [ ] `sys.executable`에 `.venv`가 포함됩니다.
-- [ ] `Path.cwd()` 결과를 기록했습니다.
+- [x] `sys.executable`에 `.venv`가 포함됩니다.
+- [x] `Path.cwd()` 결과를 기록했습니다.
 
 ## 오류가 나면
 
@@ -547,7 +547,7 @@ Notebook의 **패키지와 데이터 경로 설정** 셀을 실행합니다.
 
 ## 성공 기준
 
-- [ ] `데이터 폴더 존재 여부: True`가 표시됩니다.
+- [x] `데이터 폴더 존재 여부: True`가 표시됩니다.
 
 ## 오류가 나면
 
@@ -580,9 +580,9 @@ customers.head()
 
 ## 성공 기준
 
-- [ ] `customers.head()`가 정상 표시됩니다.
-- [ ] `FileNotFoundError`가 없습니다.
-- [ ] `ModuleNotFoundError`가 없습니다.
+- [x] `customers.head()`가 정상 표시됩니다.
+- [x] `FileNotFoundError`가 없습니다.
+- [x] `ModuleNotFoundError`가 없습니다.
 
 ## 오류가 나면
 
@@ -621,9 +621,9 @@ customers.info()
 
 ## 성공 기준
 
-- [ ] 행과 열의 수가 출력됩니다.
-- [ ] 컬럼 목록이 출력됩니다.
-- [ ] `customers.info()`가 오류 없이 실행됩니다.
+- [x] 행과 열의 수가 출력됩니다.
+- [x] 컬럼 목록이 출력됩니다.
+- [x] `customers.info()`가 오류 없이 실행됩니다.
 
 > 정확한 데이터 해석은 Chapter 03에서 본격적으로 진행합니다. 여기서는 환경 연결 확인이 목적입니다.
 
