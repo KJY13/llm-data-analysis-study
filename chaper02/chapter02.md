@@ -1,3 +1,5 @@
+*이미지가 너무 많아서, images 폴더에만 업로드를 해 두었습니다*
+
 # 2장 실습. VS Code에서 시작하는 데이터 분석 환경
 
 > 이 문서는 학생이 그대로 따라 할 수 있도록 작성한 실습 진행 가이드입니다.  
@@ -663,9 +665,9 @@ git ls-files .env
 
 ## 성공 기준
 
-- [ ] 실제 API Key를 코드에 직접 적지 않습니다.
-- [ ] `.env`가 Git 추적 대상이 아닙니다.
-- [ ] Notebook 출력이나 화면 캡처에도 Secret을 노출하지 않습니다.
+- [x] 실제 API Key를 코드에 직접 적지 않습니다.
+- [x] `.env`가 Git 추적 대상이 아닙니다.
+- [x] Notebook 출력이나 화면 캡처에도 Secret을 노출하지 않습니다.
 
 ---
 
@@ -693,9 +695,9 @@ Python 실행 파일: [sys.executable 결과]
 
 ## 성공 기준
 
-- [ ] 오류 메시지를 구체적으로 제공합니다.
-- [ ] API Key·비밀번호·토큰·개인정보를 제거합니다.
-- [ ] 파일 삭제나 시스템 변경 명령은 이유를 확인한 뒤 실행합니다.
+- [x] 오류 메시지를 구체적으로 제공합니다.
+- [x] API Key·비밀번호·토큰·개인정보를 제거합니다.
+- [x] 파일 삭제나 시스템 변경 명령은 이유를 확인한 뒤 실행합니다.
 
 ---
 
@@ -703,20 +705,20 @@ Python 실행 파일: [sys.executable 결과]
 
 Chapter 02 완료 전에 다음을 모두 확인합니다.
 
-- [ ] Public 저장소를 정상적으로 준비했습니다.
-- [ ] 프로젝트 루트에서 VS Code를 열었습니다.
-- [ ] `.venv`를 만들고 활성화했습니다.
-- [ ] `sys.executable`이 `.venv`를 가리킵니다.
-- [ ] `requirements.txt` 설치가 완료되었습니다.
-- [ ] VS Code Python 인터프리터가 `.venv`입니다.
-- [ ] 샘플 CSV 4개가 `data/raw/`에 있습니다.
-- [ ] Chapter 02 Notebook을 열었습니다.
-- [ ] Notebook 커널이 `.venv`입니다.
-- [ ] Notebook의 `sys.executable`에 `.venv`가 포함됩니다.
-- [ ] `DATA_DIR.exists()`가 `True`입니다.
-- [ ] `customers.head()`가 정상 표시됩니다.
-- [ ] `customers.shape`, 컬럼명, `info()`가 출력됩니다.
-- [ ] 실제 Secret을 GitHub에 올리지 않습니다.
+- [x] Public 저장소를 정상적으로 준비했습니다.
+- [x] 프로젝트 루트에서 VS Code를 열었습니다.
+- [x] `.venv`를 만들고 활성화했습니다.
+- [x] `sys.executable`이 `.venv`를 가리킵니다.
+- [x] `requirements.txt` 설치가 완료되었습니다.
+- [x] VS Code Python 인터프리터가 `.venv`입니다.
+- [x] 샘플 CSV 4개가 `data/raw/`에 있습니다.
+- [x] Chapter 02 Notebook을 열었습니다.
+- [x] Notebook 커널이 `.venv`입니다.
+- [x] Notebook의 `sys.executable`에 `.venv`가 포함됩니다.
+- [x] `DATA_DIR.exists()`가 `True`입니다.
+- [x] `customers.head()`가 정상 표시됩니다.
+- [x] `customers.shape`, 컬럼명, `info()`가 출력됩니다.
+- [x] 실제 Secret을 GitHub에 올리지 않습니다.
 
 ---
 
